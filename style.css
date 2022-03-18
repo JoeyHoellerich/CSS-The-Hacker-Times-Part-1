@@ -7,6 +7,8 @@
 
 h1 {
   font-family: "Abril Fatface";
+  text-align: center;
+  font-size: 3em;
 }
 
 body {
@@ -15,5 +17,87 @@ body {
 
 .newspaper-container {
   background-color: white;
-  box-shadow: 4px black;
+  box-shadow: 4px 5px 5px #ddd;
+  width: 700px;
+  margin: 50px auto;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+/* NAVBAR */
+ul {
+  padding: 0;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  text-align: center;
+  margin: auto;
+}
+
+li {
+  font-family: "Source Sans Pro";
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+/* Main Article */
+h2 {
+  font-family: "Roboto Slab";
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  margin-top: 0;
+  font-family: "Roboto Slab";
+  font-size: 1em;
+  color: #dd3232;
+}
+
+p {
+  font-family: "Source Sans Pro";
+  font-size: 0.9em;
+  padding: 0 0.5em;
+  text-align: justify;
+}
+
+main img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+main {
+  border-bottom: 1px solid #777;
+}
+
+/* More Articles */
+.more-articles {
+  margin: auto;
+  /* Center's the text and elements, need to add specificity to realign the text */
+  text-align: center;
+}
+section {
+  display: inline-block;
+  width: 45%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+h4 {
+  font-family: "Roboto Slab";
+  font-size: 1.2em;
+  text-align: left;
 }
