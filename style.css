@@ -2,6 +2,18 @@
 
 .date {
   font-family: "Courier New", Courier, monospace;
-  color: green;
-  text-align: center;
+  color: grey;
+}
+
+h1 {
+  font-family: "Abril Fatface";
+}
+
+body {
+  background-color: #eee;
+}
+
+.newspaper-container {
+  background-color: white;
+  box-shadow: 4px black;
 }
