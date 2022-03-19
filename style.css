@@ -25,6 +25,11 @@ body {
 }
 
 /* NAVBAR */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
 ul {
   padding: 0;
   border-top: 1px solid #777;
